@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reviews</title>
+<link rel="stylesheet" href="style.css">
+
+
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #000;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header {
+      background-color:#bebebe;
+      padding: 15px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #d4af37;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    h1 {
+      color: #d4af37;
+      margin-bottom: 30px;
+      text-shadow:0px 0px 10px #d4af37;
+    }
+
+    .review {
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto auto 20px auto;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 30px auto;
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+      font-family: 'Cairo', sans-serif;
+    }
+
+    input[type="submit"] {
+      background-color: #d4af37;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #b8912b;
+    }
+    nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #d4af37;
+}
+h2{
+    text-shadow: 0px 0px 10px;
+}
+  </style>
+</head>
+<body>
+  <header>
+        <div class=" logo-contaniner">
+            <img src="graphica.png" alt="Graphica logo" class="logo img" width="200" height="200" > 
+               <nav>
+<ul>
+    <li> <a href="index.html"> Home</a></li>
+<li><a href="gallery.html">designs</a></li>
+<li><a href="sevices.html" class="active">services</a></li>
+<li><a href="contact.html"> contact us</a></li>
+<li><a href="ordet.html">order </a></li>
+<li><a href="pricing.html">pricing</a></li>
+<li><a href="about.html">about</a></li>
+<li><a href="reviews.html">reviews</a></li>
+<li><a href="team.html">team</a></li>
+
+</ul>
+      </nav>
+        </div>
+    </header>
+  <h1>what our customers say</h1>
+
+  <div class="review">
+    <p>“تصاميم رائعة وسرعة في التنفيذ! شكراً لفريق Graphiza ❤️”</p>
+    <strong>– سارة محمد</strong>
+  </div>
+
+  <div class="review">
+    <p>“احترافية عالية وجودة ممتازة.. أنصح بشدة.”</p>
+    <strong>– يوسف أحمد</strong>
+  </div>
+
+  <h2 style="color:#d4af37;">share your opinion with us</h2>
+  <form onsubmit="submitReview(); return false;">
+    <input type="text" id="name" placeholder="اسمك" required>
+    <textarea id="message" rows="4" placeholder="رأيك" required></textarea>
+    <input type="submit" value="إرسال">
+  </form>
+
+  <script>
+    function submitReview() {
+      const name = document.getElementById('name').value;
+      const message = document.getElementById('message').value;
+      alert("thank you" + name + " of your opinion!");
+    
+    }
+  </script>
+</body>
+</html>

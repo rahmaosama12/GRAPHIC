@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+ }
+
+ .cairo-uniquifier {
+    font-family: "Cairo", sans-serif;
+ }
+
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: #bebebe;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+}
+
+
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+.hero {
+    color: #c5c2cd;
+    
+
+    background: linear-gradient(to left, #919191);
+    color: rgb(0, 0, 0);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 10px #cfba6b;
+}
+
+.hero p {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: rgb(222, 170, 0);
+    color: #000100;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background-color: #eee;
+}body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #cfba6b;
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 15px;
+    border: 2px solid #c6c6c6;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #d4af37; 
+}
+bodystrap-text {
+  font-size: 14px; 
+  color: #333; 
+  text-align: center;
+  padding: 10px 0;
+  text-shadow: 0 0 10px #ffd700; 
+  font-weight: 600;
+  font-family: Arial, sans-serif; 
+}

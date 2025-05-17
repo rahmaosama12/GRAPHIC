@@ -1,0 +1,9 @@
+node_modules/
+.vscode/
+.env
+dist/
+*.zip
+*.mp4
+*.psd
+.DS_Store
+Thumbs.db
